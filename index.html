@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wira Rent Car — Sewa Mobil Harian di Depok, Harga Jelas</title>
+  <meta name="description" content="Sewa mobil harian dan mingguan di Depok & Jabodetabek. Harga tampil di depan, bisa lepas kunci atau dengan sopir. Cek ketersediaan lewat WhatsApp.">
+  <meta property="og:title" content="Wira Rent Car — Sewa Mobil Harian di Depok, Harga Jelas">
+  <meta property="og:description" content="Harga sewa mobil tampil di depan: mulai Rp300.000/hari. Bisa lepas kunci atau dengan sopir, antar-jemput Jabodetabek.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/base.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="navbar-root"></div>
+
+  <main id="konten">
+    <p class="wrap content-notice" data-content-notice hidden></p>
+
+    <section id="beranda" class="hero" data-hero aria-label="Penawaran utama rental mobil"></section>
+
+    <section id="armada" class="section section-armada" aria-label="Daftar armada">
+      <div class="wrap">
+        <div data-armada-head></div>
+        <div class="filter-bar" data-filter-bar role="group" aria-label="Filter armada berdasarkan kapasitas penumpang"></div>
+        <p class="fleet-count" data-fleet-count aria-live="polite"></p>
+        <div class="fleet-grid" data-fleet-grid></div>
+      </div>
+    </section>
+
+    <section id="syarat" class="section section-syarat" aria-label="Syarat sewa">
+      <div class="wrap">
+        <div data-syarat-head></div>
+        <ol class="terms-list" data-terms-list></ol>
+      </div>
+    </section>
+
+    <section id="area" class="section" aria-label="Area layanan">
+      <div class="wrap">
+        <div data-area-head></div>
+        <ul class="area-list" data-area-list></ul>
+      </div>
+    </section>
+
+    <section id="faq" class="section" aria-label="Pertanyaan umum">
+      <div class="wrap">
+        <div data-faq-head></div>
+        <div class="faq-list" data-faq data-faq-list></div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section-kontak" aria-label="Kontak dan lokasi">
+      <div class="wrap">
+        <div data-kontak-head></div>
+        <div class="contact-grid" data-contact-grid></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-root"></div>
+
+  <noscript>
+    <p class="wrap">Halaman ini membutuhkan JavaScript untuk menampilkan daftar armada. Hubungi kami lewat WhatsApp: +62 812-3456-7890.</p>
+  </noscript>
+
+  <script type="module" src="site.js"></script>
+</body>
+</html>
